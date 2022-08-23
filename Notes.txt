@@ -1,0 +1,11 @@
+In this project will implement spring security.
+
+1. <!-- to solve the error Cannot load driver class: com.mysql.cj.jdbc.Driver -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.29</version>
+		</dependency>
+2. WebSecurityConfigurerAdapter is depricated but we are using we will see other option in next project.
+
+3.use https://bcrypt-generator.com/ to generate encryted password
